@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python3
+FROM python:3.11-slim
 
 RUN pip3 install docker
 RUN mkdir /hoster
